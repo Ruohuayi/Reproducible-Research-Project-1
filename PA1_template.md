@@ -29,8 +29,8 @@ act<-read.csv("activity.csv")
 sumstep<-with(act,tapply(steps,date,FUN=sum))
 hist(sumstep,xlab="Steps")
 ```
-
 ![](PA1_template_files/figure-html/histogram-total-steps-1.png)<!-- -->
+
 
 ### Mean and median of steps per day
 
