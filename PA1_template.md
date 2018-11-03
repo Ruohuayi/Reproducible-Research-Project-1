@@ -30,7 +30,7 @@ sumstep<-with(act,tapply(steps,date,FUN=sum))
 hist(sumstep,xlab="Steps")
 ```
 
-![](PA1_template_files/figure-html/histogram total steps-1.png)<!-- -->
+![](PA1_template_files/figure-html/histogram-total-steps-1.png)<!-- -->
 
 ### Mean and median of steps per day
 
@@ -76,7 +76,8 @@ sumstep1<-tapply(act1$steps,format(act1$date),FUN=sum)
 hist(sumstep1,main="Sum of Steps Taken Each Day without NAs", xlab="Sum of Steps")
 ```
 
-![](PA1_template_files/figure-html/new dataset without NAs-1.png)<!-- -->
+![](PA1_template_files/figure-html/new-dataset-without-NAs-1.png)<!-- -->
+
 ###Calculating the mean and median total number of steps taken per day. 
 
 ```r
